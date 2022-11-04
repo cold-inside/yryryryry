@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+ background: url("../imgs/main.png") center;
+}
+h1, h2, h3, h4, h5
+{
+    margin: 0;
+}
+/* container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* main */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+.main_title
+{
+    font-size: 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 50px;
+    margin-right: 600px;
+    margin-top: 50px;
+    width: 50%;
+}
+.main_inner
+{
+    width: 100%;
+    max-width: 1000px;
+  margin-top: 200px;
+margin-left: 50px;
+    text-align: center;
+}
+/* head */
+.header
+{
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1500;
+    width: 100%;
+}
+.header_inner
+{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+/* navigate */
+.nav {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav_link
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    position: relative;
+}
+
+.nav_link:hover
+{
+    color: white;
+}
+/* button */
+.lowbut 
+{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 50px;
+   border: 2px solid black;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 500px;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+.lowbut:hover
+{
+    background-color: white;
+    color: black;
+}
+/* bottom */
+.bottom
+{
+    display: flex;
+    
+   margin-top: 200px;
+    width:100%;
+   align-items: center;
+    border-top: 2px solid #333;
+    
+}
+.bottom_item
+{
+    width: 25%;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+.image
+{
+    float: right;
+    display: inline-block;
+    width: 50%;
+    height: 50vh;
+   text-align: right;
+}
+.buttonreg
+{
+ display: inline-block;
+    vertical-align: top;
+    padding: 10px 50px;
+   border: 2px solid black;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+.buttonreg:hover
+{
+    background-color: white;
+    color: black;
+}
+.spiski
+{
+display: flex;
+text-align: left;
+width: 50%;
+margin-bottom: 00px;
+
+}
+
+
