@@ -1,0 +1,34 @@
+.logo{
+    width: auto;
+    height: 200px;
+    color: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 800px;
+}
+.right{
+    width: 300px;
+}
+
+.ROMa {
+    float: right;
+    width: 400px;
+    height: 200px;
+    
+}
+
+.footer{
+    width: auto;
+    height: 200px;
+    text-align: center;
+    font-family: monospace;
+    background-color: rgba(250,255,255,0.1)
+}
+
